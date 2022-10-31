@@ -28,9 +28,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+                "src/styles.sass"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {
@@ -103,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
