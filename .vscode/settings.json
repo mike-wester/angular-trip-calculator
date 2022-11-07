@@ -1,0 +1,21 @@
+{
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.prettierPath": "./node_modules/prettier",
+  "jestrunner.jestPath": "./node_modules/jest/bin/jest.js",
+  "jestrunner.configPath": "./jest.config.js",
+  "jestrunner.changeDirectoryToWorkspaceRoot": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#002a32",
+    "titleBar.activeBackground": "#003c4c",
+    "titleBar.activeForeground": "#F8FAFD"
+  }
+}
