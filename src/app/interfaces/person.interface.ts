@@ -1,5 +1,6 @@
 export interface IPerson {
-    firstName: string,
-    lastName: string,
+    id: string,
+    firstName?: string,
+    lastName?: string,
     contribution?: number
 }
